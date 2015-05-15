@@ -6,6 +6,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import ninja.stupdn.proxy.IProxy;
+import ninja.stupdn.util.STUPDNLogger;
 
 @Mod(modid = STUPDN.MOD_ID, name = STUPDN.MOD_NAME, version = STUPDN.MOD_VERSION)
 public class STUPDN 
@@ -23,18 +24,18 @@ public class STUPDN
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-
+        STUPDNLogger.debug("STUPDN pre-initialisation has been completed!");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
-
+        STUPDNLogger.debug("STUPDN initialisation has been completed!");
     }
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
-
+        STUPDNLogger.debug("STUPDN post-initialisation has been completed!");
     }
 }
