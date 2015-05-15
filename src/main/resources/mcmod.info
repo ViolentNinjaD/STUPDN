@@ -1,0 +1,16 @@
+[
+{
+  "modid": "stupdn",
+  "name": "STUPDN",
+  "description": "Stuff That You Probably Don't Need!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["ViolentNinjaD"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
